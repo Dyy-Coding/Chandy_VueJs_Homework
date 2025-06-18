@@ -1,16 +1,11 @@
 <template>
-  <div class="nav">
-    <nav class="bg-gray-100 p-4 shadow">
-      <ul class="flex gap-4">
-        <li><a href="/" class="hover:underline">Home</a></li>
-        <li><a href="/about" class="hover:underline">About</a></li>
-        <li><a href="/contact" class="hover:underline">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+  <nav class="bg-white shadow p-4 flex gap-6 justify-center">
+    <a href="/#home" class="hover:underline text-lg">Home</a>
+    <a href="/#about" class="hover:underline text-lg">About</a>
+    <a href="/#contact" class="hover:underline text-lg">Contact</a>
+  </nav>
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
-// No need for router.push() here because you're using a hash-based router with <a href="#/...">
+// no need to import anything
 </script>
