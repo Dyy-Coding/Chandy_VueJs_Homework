@@ -4,10 +4,12 @@ import Home from '@/components/page/Home.vue'
 import About from '@/components/page/About.vue'
 import Contact from '@/components/page/Contact.vue'
 import NotFound from '@/components/NotFound.vue'
+import Fire from '@/components/page/Fire.vue'
 
 const routes = [
   { path: '/', component: Home },
   { path: '/about', component: About },
+  { path: '/fire', component: Fire },
   { path: '/contact', component: Contact },
   { path: '/404', component: NotFound },
   { path: '/:pathMatch(.*)*', redirect: '/404' } // catch-all for undefined routes
